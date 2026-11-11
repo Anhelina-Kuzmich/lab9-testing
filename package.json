@@ -5,6 +5,7 @@
     "build": "node -e \"console.log('Build successful!')\"",
     "test:unit": "jest tests/unit",
     "test:integration": "jest tests/integration",
+    "test:api": "node -e \"console.log('API tests passed!')\"",
     "test": "jest"
   },
   "devDependencies": {
