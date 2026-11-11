@@ -1,0 +1,13 @@
+{
+  "name": "lab9-ci-cd",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node -e \"console.log('Build successful!')\"",
+    "test:unit": "jest tests/unit",
+    "test:integration": "jest tests/integration",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
